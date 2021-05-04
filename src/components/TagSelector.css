@@ -1,0 +1,73 @@
+.tag-selector {
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.tag-selector:hover {
+  background-color: lightgray;
+}
+
+.tag-selector:focus-within {
+  top: 0;
+  z-index: 20;
+  background-color: white;
+}
+
+.tag-selector-label {
+  display: inline-block;
+  padding-right: 0.3rem;
+}
+
+.tag-selector-inner {
+  display: flex;
+}
+
+.tag-selector-inner-editing {
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+.tag-search {
+  display: inline-block;
+}
+
+.tag-search-input {
+  border: none;
+  outline: none;
+}
+
+.tag-search-results {
+  overflow-y: scroll;
+
+  max-height: 400px;
+}
+
+.tag-pill {
+  display: flex;
+  border-radius: 4px;
+  background-color: lightpink;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  align-items: center;
+  user-select: none;
+}
+
+.tag-pill-delete {
+  display: inline-block;
+  border: none;
+  margin-left: 4px;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  outline: none;
+}
+
+.tag-pill-delete:focus {
+  outline: none;
+  border: none;
+}

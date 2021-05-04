@@ -1,0 +1,27 @@
+.file-tag {
+  font-size: 0.75rem;
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 2px;
+  margin-right: 3px;
+  border-radius: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 75%;
+  align-self: center;
+}
+
+.file-tag-container {
+  display: absolute;
+  overflow-x: hidden;
+  top: 0;
+  position: relative;
+  cursor: pointer;
+  align-items: center;
+  transform: translate(0, 12.5%);
+}
+
+.selected-row {
+  background-color: blue;
+}

@@ -1,0 +1,80 @@
+.project-select {
+  padding: 4px;
+  border-bottom: 1px solid grey;
+}
+.project-select select {
+  width: 100%;
+}
+
+.tag-container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+.tag-list {
+  padding: 4px;
+  flex: none;
+  text-align: left;
+}
+
+.tag-entry {
+  width: 100%;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.hover-tag {
+  background-color: blue;
+  color: white;
+}
+
+.tag-count {
+  margin-left: 5px;
+  font-size: 0.75rem;
+  color: grey;
+}
+
+.tag-button {
+  flex-grow: 0;
+  min-width: 0;
+  position: relative;
+  border-radius: 0.2rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.tag-button:hover {
+  background-color: whitesmoke;
+}
+
+.tag-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tag-graph {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.pip {
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-color: pink;
+  margin-right: 5px;
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
